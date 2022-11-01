@@ -7,8 +7,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 git url: 'https://github.com/telimbangs/jenkinsclass.git',
-                credentialsId: 'TT',
-                branch 'jenkinsmain'
+                    credentialsId: 'TT',
+                    branch 'jenkinsmain'
             }
         }
     }
