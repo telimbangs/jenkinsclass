@@ -3,6 +3,12 @@ pipeline {
     tools {
         maven "Local Maven"
     }
+    environment {
+
+    PATH = "C:\\WINDOWS\\SYSTEM32"
+
+}
+
     stages {
         stage('Checkout') {
             steps {
